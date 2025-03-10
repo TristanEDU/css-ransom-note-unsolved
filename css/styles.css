@@ -986,8 +986,12 @@ border: .4rem double purple !important;
   font-size: 130px;
   font-weight: normal;
   color: #C74454;
-  text-decoration: ;
-  text-transform: ;
+  text-decoration: underline;
+  text-transform: none;
+  background: repeating-radial-gradient(at bottom left, rgba(255, 192, 203, 0.6) 0% 3%, rgba(0, 0, 0, 0.6) 3% 6%, rgba(128, 0, 128, 0.6) 6% 9%), 
+  repeating-conic-gradient(red 0% 10%, purple 10% 20%);
+  border: .3rem outset pink !important;
+  border-radius: 15%;
 }
 
 /* SYMBOLS */
@@ -1005,11 +1009,17 @@ border: .4rem double purple !important;
 }
 .exclamation-mark {
   font-size: 183px;
-  font-weight: ;
+  font-weight: bold;
   color: violet;
-  text-decoration: ;
-  text-transform: ;
+  text-decoration: none;
+  text-transform: uppercase;
   font-family: "Mr De Haviland", serif;
+  background: radial-gradient(at bottom right, green, blue, purple, orangered);
+  border: none !important;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 20%;
 }
 .question-mark {
   font-size: 161px;
