@@ -1013,11 +1013,18 @@ border: .4rem double purple !important;
 }
 .question-mark {
   font-size: 161px;
-  font-weight: ;
+  font-weight: normal;
   color: springgreen;
-  text-decoration: ;
-  text-transform: ;
+  text-decoration: overline;
+  text-transform: none;
   font-family: "Mr De Haviland", serif;
+  background-color: red;
+  clip-path: ellipse();
+  /* border: none !important; */
+  /* border-top-left-radius: 20%; */
+  /* border-top-right-radius: 20%; */
+  /* border-bottom-right-radius: 50%; */
+  /* border-bottom-left-radius: 50%; */
 }
 
 .font1 {
