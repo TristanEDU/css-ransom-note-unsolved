@@ -931,10 +931,13 @@ border: .4rem double purple !important;
 
 .skillsSLetter {
   font-size: 47px;
-  font-weight: ;
+  font-weight: bold;
   color: rgb(101, 100, 49);
-  text-decoration: ;
-  text-transform: ;
+  text-decoration: overline;
+  text-transform: uppercase;
+  background: repeating-radial-gradient(blue 0% 10%, pink 7% 20%, gray 17% 30%);
+  border: .7rem dotted purple !important;
+  border-radius: 30%;
 
 }
 .skillsKLetter {
@@ -944,7 +947,7 @@ border: .4rem double purple !important;
   text-decoration: none;
   text-transform: lowercase;
   background: linear-gradient(to bottom right, rgb(40, 42, 86) 0% 24%, rgba(255, 255, 255, 0) 20% 100%), linear-gradient(to bottom left, rgb(40, 42, 86) 0% 24%, rgba(255, 255, 255, 0) 20% 100%), 
-  linear-gradient(to right, rgba(145, 9, 9, 0.527), rgba(219, 89, 89, 0.514) 40% 50%, rgba(145, 9, 9, 0.5)), linear-gradient(rgb(145, 9, 9), rgb(219, 89, 89) 40% 50%, rgb(145, 9, 9));
+  linear-gradient(to right, rgba(145, 9, 9, 0.527), rgba(226, 114, 114, 0.514) 40% 50%, rgba(145, 9, 9, 0.5)), linear-gradient(rgb(145, 9, 9), rgb(218, 106, 106) 40% 50%, rgb(145, 9, 9));
   border-radius: 50%;
   border: none !important;
 }
@@ -976,6 +979,7 @@ border: .4rem double purple !important;
   text-decoration: overline;
   text-transform: uppercase;
   background-color: rgb(118, 224, 85);
+  border: .8rem double green !important;
 
 }
 .skillsSTwoLetter {
