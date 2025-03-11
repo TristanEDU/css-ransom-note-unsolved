@@ -1030,11 +1030,6 @@ border: .4rem double purple !important;
   font-family: "Mr De Haviland", serif;
   background-color: red;
   clip-path: ellipse();
-  /* border: none !important; */
-  /* border-top-left-radius: 20%; */
-  /* border-top-right-radius: 20%; */
-  /* border-bottom-right-radius: 50%; */
-  /* border-bottom-left-radius: 50%; */
 }
 
 .font1 {
@@ -1047,7 +1042,6 @@ border: .4rem double purple !important;
 
 .font3 {
   font-family: "Liter", serif;
-  text-decoration: ;
 }
 
 .font4 {
